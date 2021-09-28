@@ -1,12 +1,13 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addNumber, subNumber } from "../../store/modules/counter/actions";
+import "./styles.css";
 
 const Counter = () => {
   const counter = useSelector((store) => store.counter);
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className="counterBox">
       <h1>{counter}</h1>
       <div>
         <button onClick={() => dispatch(subNumber(1))}>-</button>

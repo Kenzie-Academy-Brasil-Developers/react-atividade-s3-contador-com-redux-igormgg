@@ -1,0 +1,24 @@
+.counterBox {
+  border: 2px dotted black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counterBox h1 {
+  font-size: calc(10px + 3vmin);
+}
+
+.counterBox button {
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+}
+
+.counterBox button:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
