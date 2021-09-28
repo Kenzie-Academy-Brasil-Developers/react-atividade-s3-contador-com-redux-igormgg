@@ -11,7 +11,6 @@ const Counter = () => {
       <h1>{counter}</h1>
       <div>
         <button onClick={() => dispatch(subNumber(1))}>-</button>
-
         <button onClick={() => dispatch(addNumber(1))}>+</button>
       </div>
     </div>

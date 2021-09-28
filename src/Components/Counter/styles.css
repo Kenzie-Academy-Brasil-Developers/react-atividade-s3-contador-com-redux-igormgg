@@ -15,7 +15,7 @@
 .counterBox button {
   width: 30px;
   height: 30px;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 .counterBox button:hover {
